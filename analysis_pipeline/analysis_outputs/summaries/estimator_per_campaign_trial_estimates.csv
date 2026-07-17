@@ -1,0 +1,286 @@
+subject,run_no,campaign_name,estimator_label,estimate_total
+parsera,1,parsera_aflpp_run_01,Chao2 (incidence-based),9569.41850248724
+parsera,1,parsera_aflpp_run_01,Chao2_bc (incidence-based),9567.017447155251
+parsera,1,parsera_aflpp_run_01,Jackknife1 (incidence-based),9588.759286775632
+parsera,1,parsera_aflpp_run_01,Chao1 (incidence-based),9569.630434782608
+parsera,1,parsera_aflpp_run_01,Poisson (incidence-frequency estimator),9427.0
+parsera,1,parsera_aflpp_run_01,Exponential (incidence-frequency estimator),9427000000000000.0
+parsera,1,parsera_aflpp_run_01,Gamma (incidence-frequency estimator),9427000000000000.0
+parsera,1,parsera_aflpp_run_01,Negative Binomial (incidence-frequency estimator),9452.312673150558
+parsera,1,parsera_aflpp_run_01,ztPoisson (incidence-frequency estimator),9427.0
+parsera,1,parsera_aflpp_run_01,ztNB (incidence-frequency estimator),9452.312673150558
+parsera,1,parsera_aflpp_run_01,Gamma-Poisson (incidence-frequency estimator),9452.308836377504
+parsera,1,parsera_aflpp_run_01,Lanumteang-Bohning (incidence-based),9705.45289512616
+parsera,1,parsera_aflpp_run_01,Chiu (incidence-based),9428.30988917306
+parsera,1,parsera_aflpp_run_01,Beta-Binomial (incidence-based),9638.886738389392
+parsera,1,parsera_aflpp_run_01,Zipf-Mandelbrot (coverage-frequency estimator),9427.0
+parsera,1,parsera_aflpp_run_01,Poisson (hit-count estimator),9427.0
+parsera,1,parsera_aflpp_run_01,Exponential (hit-count estimator),9427.00051578171
+parsera,1,parsera_aflpp_run_01,Gamma (hit-count estimator),10064.583761097816
+parsera,1,parsera_aflpp_run_01,Negative Binomial (hit-count estimator),10089.501210294387
+parsera,2,parsera_aflpp_run_02,Chao2 (incidence-based),9248.561585985766
+parsera,2,parsera_aflpp_run_02,Chao2_bc (incidence-based),9246.68824859487
+parsera,2,parsera_aflpp_run_02,Jackknife1 (incidence-based),9290.744427934622
+parsera,2,parsera_aflpp_run_02,Chao1 (incidence-based),9248.754385964912
+parsera,2,parsera_aflpp_run_02,Poisson (incidence-frequency estimator),9119.0
+parsera,2,parsera_aflpp_run_02,Exponential (incidence-frequency estimator),9119000000000000.0
+parsera,2,parsera_aflpp_run_02,Gamma (incidence-frequency estimator),9119000000000000.0
+parsera,2,parsera_aflpp_run_02,Negative Binomial (incidence-frequency estimator),9152.726712618933
+parsera,2,parsera_aflpp_run_02,ztPoisson (incidence-frequency estimator),9119.0
+parsera,2,parsera_aflpp_run_02,ztNB (incidence-frequency estimator),9152.726712618933
+parsera,2,parsera_aflpp_run_02,Gamma-Poisson (incidence-frequency estimator),9152.729398248926
+parsera,2,parsera_aflpp_run_02,Lanumteang-Bohning (incidence-based),9286.434676256662
+parsera,2,parsera_aflpp_run_02,Chiu (incidence-based),9119.924156545208
+parsera,2,parsera_aflpp_run_02,Beta-Binomial (incidence-based),9277.718737178986
+parsera,2,parsera_aflpp_run_02,Zipf-Mandelbrot (coverage-frequency estimator),9119.0
+parsera,2,parsera_aflpp_run_02,Poisson (hit-count estimator),9119.0
+parsera,2,parsera_aflpp_run_02,Exponential (hit-count estimator),9119.000523195964
+parsera,2,parsera_aflpp_run_02,Gamma (hit-count estimator),9728.004632408089
+parsera,2,parsera_aflpp_run_02,Negative Binomial (hit-count estimator),9724.250132307401
+parsera,3,parsera_aflpp_run_03,Chao2 (incidence-based),9218.538342270173
+parsera,3,parsera_aflpp_run_03,Chao2_bc (incidence-based),9216.039256099315
+parsera,3,parsera_aflpp_run_03,Jackknife1 (incidence-based),9234.753343239227
+parsera,3,parsera_aflpp_run_03,Chao1 (incidence-based),9218.760869565218
+parsera,3,parsera_aflpp_run_03,Poisson (incidence-frequency estimator),9069.0
+parsera,3,parsera_aflpp_run_03,Exponential (incidence-frequency estimator),9069000000000000.0
+parsera,3,parsera_aflpp_run_03,Gamma (incidence-frequency estimator),9069000000000000.0
+parsera,3,parsera_aflpp_run_03,Negative Binomial (incidence-frequency estimator),9098.13284206948
+parsera,3,parsera_aflpp_run_03,ztPoisson (incidence-frequency estimator),9069.0
+parsera,3,parsera_aflpp_run_03,ztNB (incidence-frequency estimator),9098.13284206948
+parsera,3,parsera_aflpp_run_03,Gamma-Poisson (incidence-frequency estimator),9098.145916633275
+parsera,3,parsera_aflpp_run_03,Lanumteang-Bohning (incidence-based),9412.650237322265
+parsera,3,parsera_aflpp_run_03,Chiu (incidence-based),9070.353260869566
+parsera,3,parsera_aflpp_run_03,Beta-Binomial (incidence-based),9293.307513405258
+parsera,3,parsera_aflpp_run_03,Zipf-Mandelbrot (coverage-frequency estimator),9069.0
+parsera,3,parsera_aflpp_run_03,Poisson (hit-count estimator),9069.0
+parsera,3,parsera_aflpp_run_03,Exponential (hit-count estimator),9069.000518370229
+parsera,3,parsera_aflpp_run_03,Gamma (hit-count estimator),9661.571061063443
+parsera,3,parsera_aflpp_run_03,Negative Binomial (hit-count estimator),10093.080133704476
+parserb,1,parserb_aflpp_run_01,Chao2 (incidence-based),20005.49508243119
+parserb,1,parserb_aflpp_run_01,Chao2_bc (incidence-based),20003.43518923171
+parserb,1,parserb_aflpp_run_01,Jackknife1 (incidence-based),20147.955423476968
+parserb,1,parserb_aflpp_run_01,Chao1 (incidence-based),20006.327664399094
+parserb,1,parserb_aflpp_run_01,Poisson (incidence-frequency estimator),19446.0
+parserb,1,parserb_aflpp_run_01,Exponential (incidence-frequency estimator),1.9446e+16
+parserb,1,parserb_aflpp_run_01,Gamma (incidence-frequency estimator),1.9446e+16
+parserb,1,parserb_aflpp_run_01,Negative Binomial (incidence-frequency estimator),19924.886043327002
+parserb,1,parserb_aflpp_run_01,ztPoisson (incidence-frequency estimator),19446.0
+parserb,1,parserb_aflpp_run_01,ztNB (incidence-frequency estimator),19924.886043327002
+parserb,1,parserb_aflpp_run_01,Gamma-Poisson (incidence-frequency estimator),19924.886043327002
+parserb,1,parserb_aflpp_run_01,Lanumteang-Bohning (incidence-based),20588.350339174136
+parserb,1,parserb_aflpp_run_01,Chiu (incidence-based),19447.19557823129
+parserb,1,parserb_aflpp_run_01,Beta-Binomial (incidence-based),20285.242623646784
+parserb,1,parserb_aflpp_run_01,Zipf-Mandelbrot (coverage-frequency estimator),19446.0
+parserb,1,parserb_aflpp_run_01,Poisson (hit-count estimator),19446.0
+parserb,1,parserb_aflpp_run_01,Exponential (hit-count estimator),19446.00201872086
+parserb,1,parserb_aflpp_run_01,Gamma (hit-count estimator),21091.611494726818
+parserb,1,parserb_aflpp_run_01,Negative Binomial (hit-count estimator),21062.248744488694
+parserb,2,parserb_aflpp_run_02,Chao2 (incidence-based),19967.32493939157
+parserb,2,parserb_aflpp_run_02,Chao2_bc (incidence-based),19965.412883948225
+parserb,2,parserb_aflpp_run_02,Jackknife1 (incidence-based),20132.968796433877
+parserb,2,parserb_aflpp_run_02,Chao1 (incidence-based),19968.109649122805
+parserb,2,parserb_aflpp_run_02,Poisson (incidence-frequency estimator),19440.0
+parserb,2,parserb_aflpp_run_02,Exponential (incidence-frequency estimator),1.944e+16
+parserb,2,parserb_aflpp_run_02,Gamma (incidence-frequency estimator),1.944e+16
+parserb,2,parserb_aflpp_run_02,Negative Binomial (incidence-frequency estimator),19892.411749478808
+parserb,2,parserb_aflpp_run_02,ztPoisson (incidence-frequency estimator),19440.0
+parserb,2,parserb_aflpp_run_02,ztNB (incidence-frequency estimator),19892.411749478808
+parserb,2,parserb_aflpp_run_02,Gamma-Poisson (incidence-frequency estimator),19892.411749478808
+parserb,2,parserb_aflpp_run_02,Lanumteang-Bohning (incidence-based),20484.340793181807
+parserb,2,parserb_aflpp_run_02,Chiu (incidence-based),19441.137119697978
+parserb,2,parserb_aflpp_run_02,Beta-Binomial (incidence-based),20227.988468509848
+parserb,2,parserb_aflpp_run_02,Zipf-Mandelbrot (coverage-frequency estimator),19440.0
+parserb,2,parserb_aflpp_run_02,Poisson (hit-count estimator),19440.0
+parserb,2,parserb_aflpp_run_02,Exponential (hit-count estimator),19440.0019796224
+parserb,2,parserb_aflpp_run_02,Gamma (hit-count estimator),21091.005944150285
+parserb,2,parserb_aflpp_run_02,Negative Binomial (hit-count estimator),21140.890973270634
+parserb,3,parserb_aflpp_run_03,Chao2 (incidence-based),19927.974791207664
+parserb,3,parserb_aflpp_run_03,Chao2_bc (incidence-based),19926.27447347366
+parserb,3,parserb_aflpp_run_03,Jackknife1 (incidence-based),20131.964338781574
+parserb,3,parserb_aflpp_run_03,Chao1 (incidence-based),19928.706896551725
+parserb,3,parserb_aflpp_run_03,Poisson (incidence-frequency estimator),19436.0
+parserb,3,parserb_aflpp_run_03,Exponential (incidence-frequency estimator),1.9436e+16
+parserb,3,parserb_aflpp_run_03,Gamma (incidence-frequency estimator),1.9436e+16
+parserb,3,parserb_aflpp_run_03,Negative Binomial (incidence-frequency estimator),19902.227656931325
+parserb,3,parserb_aflpp_run_03,ztPoisson (incidence-frequency estimator),19436.0
+parserb,3,parserb_aflpp_run_03,ztNB (incidence-frequency estimator),19902.227656931325
+parserb,3,parserb_aflpp_run_03,Gamma-Poisson (incidence-frequency estimator),19902.227656931325
+parserb,3,parserb_aflpp_run_03,Lanumteang-Bohning (incidence-based),20232.905244167454
+parserb,3,parserb_aflpp_run_03,Chiu (incidence-based),19436.97673636586
+parserb,3,parserb_aflpp_run_03,Beta-Binomial (incidence-based),20115.77367902941
+parserb,3,parserb_aflpp_run_03,Zipf-Mandelbrot (coverage-frequency estimator),19436.0
+parserb,3,parserb_aflpp_run_03,Poisson (hit-count estimator),19436.0
+parserb,3,parserb_aflpp_run_03,Exponential (hit-count estimator),19436.0019987778
+parserb,3,parserb_aflpp_run_03,Gamma (hit-count estimator),21104.26553708733
+parserb,3,parserb_aflpp_run_03,Negative Binomial (hit-count estimator),21781.778128824724
+parserd,1,parserd_aflpp_run_01,Chao2 (incidence-based),8676.246791841146
+parserd,1,parserd_aflpp_run_01,Chao2_bc (incidence-based),8674.385758372386
+parserd,1,parserd_aflpp_run_01,Jackknife1 (incidence-based),8704.82763744428
+parserd,1,parserd_aflpp_run_01,Chao1 (incidence-based),8676.376623376624
+parserd,1,parserd_aflpp_run_01,Poisson (incidence-frequency estimator),8589.0
+parserd,1,parserd_aflpp_run_01,Exponential (incidence-frequency estimator),8589000000000000.0
+parserd,1,parserd_aflpp_run_01,Gamma (incidence-frequency estimator),8599.09661530951
+parserd,1,parserd_aflpp_run_01,Negative Binomial (incidence-frequency estimator),8599.571563301011
+parserd,1,parserd_aflpp_run_01,ztPoisson (incidence-frequency estimator),8589.0
+parserd,1,parserd_aflpp_run_01,ztNB (incidence-frequency estimator),8599.571563301011
+parserd,1,parserd_aflpp_run_01,Gamma-Poisson (incidence-frequency estimator),8599.570967979607
+parserd,1,parserd_aflpp_run_01,Lanumteang-Bohning (incidence-based),8719.777560439223
+parserd,1,parserd_aflpp_run_01,Chiu (incidence-based),8590.003225532637
+parserd,1,parserd_aflpp_run_01,Beta-Binomial (incidence-based),8705.201243269157
+parserd,1,parserd_aflpp_run_01,Zipf-Mandelbrot (coverage-frequency estimator),8589.0
+parserd,1,parserd_aflpp_run_01,Poisson (hit-count estimator),8589.0
+parserd,1,parserd_aflpp_run_01,Exponential (hit-count estimator),8589.000391678715
+parserd,1,parserd_aflpp_run_01,Gamma (hit-count estimator),8984.407882515303
+parserd,1,parserd_aflpp_run_01,Negative Binomial (hit-count estimator),8935.790769709185
+parserd,2,parserd_aflpp_run_02,Chao2 (incidence-based),8469.268701071167
+parserd,2,parserd_aflpp_run_02,Chao2_bc (incidence-based),8466.942487544795
+parserd,2,parserd_aflpp_run_02,Jackknife1 (incidence-based),8484.82763744428
+parserd,2,parserd_aflpp_run_02,Chao1 (incidence-based),8469.41791044776
+parserd,2,parserd_aflpp_run_02,Poisson (incidence-frequency estimator),8369.0
+parserd,2,parserd_aflpp_run_02,Exponential (incidence-frequency estimator),8369000000000000.0
+parserd,2,parserd_aflpp_run_02,Gamma (incidence-frequency estimator),8383.467828243394
+parserd,2,parserd_aflpp_run_02,Negative Binomial (incidence-frequency estimator),8383.866096322576
+parserd,2,parserd_aflpp_run_02,ztPoisson (incidence-frequency estimator),8369.0
+parserd,2,parserd_aflpp_run_02,ztNB (incidence-frequency estimator),8383.866096322576
+parserd,2,parserd_aflpp_run_02,Gamma-Poisson (incidence-frequency estimator),8383.870587432413
+parserd,2,parserd_aflpp_run_02,Lanumteang-Bohning (incidence-based),8664.817876534014
+parserd,2,parserd_aflpp_run_02,Chiu (incidence-based),8370.298507462687
+parserd,2,parserd_aflpp_run_02,Beta-Binomial (incidence-based),8519.40305160675
+parserd,2,parserd_aflpp_run_02,Zipf-Mandelbrot (coverage-frequency estimator),8369.0
+parserd,2,parserd_aflpp_run_02,Poisson (hit-count estimator),8369.0
+parserd,2,parserd_aflpp_run_02,Exponential (hit-count estimator),8369.000389353376
+parserd,2,parserd_aflpp_run_02,Gamma (hit-count estimator),8748.942259715337
+parserd,2,parserd_aflpp_run_02,Negative Binomial (hit-count estimator),8509.246697316727
+parserd,3,parserd_aflpp_run_03,Chao2 (incidence-based),8453.353978971918
+parserd,3,parserd_aflpp_run_03,Chao2_bc (incidence-based),8451.850520059435
+parserd,3,parserd_aflpp_run_03,Jackknife1 (incidence-based),8488.845468053492
+parserd,3,parserd_aflpp_run_03,Chao1 (incidence-based),8453.45569620253
+parserd,3,parserd_aflpp_run_03,Poisson (incidence-frequency estimator),8385.0
+parserd,3,parserd_aflpp_run_03,Exponential (incidence-frequency estimator),8385000000000000.0
+parserd,3,parserd_aflpp_run_03,Gamma (incidence-frequency estimator),8402.404944023081
+parserd,3,parserd_aflpp_run_03,Negative Binomial (incidence-frequency estimator),8402.701546406008
+parserd,3,parserd_aflpp_run_03,ztPoisson (incidence-frequency estimator),8385.0
+parserd,3,parserd_aflpp_run_03,ztNB (incidence-frequency estimator),8402.701546406008
+parserd,3,parserd_aflpp_run_03,Gamma-Poisson (incidence-frequency estimator),8402.69891842619
+parserd,3,parserd_aflpp_run_03,Lanumteang-Bohning (incidence-based),8540.71175505386
+parserd,3,parserd_aflpp_run_03,Chiu (incidence-based),8385.987341772152
+parserd,3,parserd_aflpp_run_03,Beta-Binomial (incidence-based),8487.530968457879
+parserd,3,parserd_aflpp_run_03,Zipf-Mandelbrot (coverage-frequency estimator),8385.0
+parserd,3,parserd_aflpp_run_03,Poisson (hit-count estimator),8385.0
+parserd,3,parserd_aflpp_run_03,Exponential (hit-count estimator),8385.000389750623
+parserd,3,parserd_aflpp_run_03,Gamma (hit-count estimator),8774.003496081188
+parserd,3,parserd_aflpp_run_03,Negative Binomial (hit-count estimator),8730.547741776223
+parsere,1,parsere_aflpp_run_01,Chao2 (incidence-based),12173.301503845338
+parsere,1,parsere_aflpp_run_01,Chao2_bc (incidence-based),12173.132838038633
+parsere,1,parsere_aflpp_run_01,Jackknife1 (incidence-based),12467.494799405646
+parsere,1,parsere_aflpp_run_01,Chao1 (incidence-based),12173.368916797488
+parsere,1,parsere_aflpp_run_01,Poisson (incidence-frequency estimator),12128.0
+parsere,1,parsere_aflpp_run_01,Exponential (incidence-frequency estimator),1.2128e+16
+parsere,1,parsere_aflpp_run_01,Gamma (incidence-frequency estimator),1.2128e+16
+parsere,1,parsere_aflpp_run_01,Negative Binomial (incidence-frequency estimator),12221.265906090366
+parsere,1,parsere_aflpp_run_01,ztPoisson (incidence-frequency estimator),12128.0
+parsere,1,parsere_aflpp_run_01,ztNB (incidence-frequency estimator),12221.265906090366
+parsere,1,parsere_aflpp_run_01,Gamma-Poisson (incidence-frequency estimator),12221.265906090366
+parsere,1,parsere_aflpp_run_01,Lanumteang-Bohning (incidence-based),12155.542087430842
+parsere,1,parsere_aflpp_run_01,Chiu (incidence-based),12128.13343799058
+parsere,1,parsere_aflpp_run_01,Beta-Binomial (incidence-based),12173.301503845338
+parsere,1,parsere_aflpp_run_01,Zipf-Mandelbrot (coverage-frequency estimator),12128.0
+parsere,1,parsere_aflpp_run_01,Poisson (hit-count estimator),12128.0
+parsere,1,parsere_aflpp_run_01,Exponential (hit-count estimator),12128.000514138312
+parsere,1,parsere_aflpp_run_01,Gamma (hit-count estimator),13454.574337704518
+parsere,1,parsere_aflpp_run_01,Negative Binomial (hit-count estimator),13489.989791498396
+parsere,2,parsere_aflpp_run_02,Chao2 (incidence-based),12658.127859183907
+parsere,2,parsere_aflpp_run_02,Chao2_bc (incidence-based),12657.508646840155
+parsere,2,parsere_aflpp_run_02,Jackknife1 (incidence-based),13555.910846953937
+parsere,2,parsere_aflpp_run_02,Chao1 (incidence-based),12658.881025641025
+parsere,2,parsere_aflpp_run_02,Poisson (incidence-frequency estimator),12152.0
+parsere,2,parsere_aflpp_run_02,Exponential (incidence-frequency estimator),1.2152e+16
+parsere,2,parsere_aflpp_run_02,Gamma (incidence-frequency estimator),1.2152e+16
+parsere,2,parsere_aflpp_run_02,Negative Binomial (incidence-frequency estimator),12229.120419647266
+parsere,2,parsere_aflpp_run_02,ztPoisson (incidence-frequency estimator),12152.0
+parsere,2,parsere_aflpp_run_02,ztNB (incidence-frequency estimator),12229.120419647266
+parsere,2,parsere_aflpp_run_02,Gamma-Poisson (incidence-frequency estimator),12229.120419647266
+parsere,2,parsere_aflpp_run_02,Lanumteang-Bohning (incidence-based),12485.70607300784
+parsere,2,parsere_aflpp_run_02,Chiu (incidence-based),12152.360512820513
+parsere,2,parsere_aflpp_run_02,Beta-Binomial (incidence-based),12658.127859183907
+parsere,2,parsere_aflpp_run_02,Zipf-Mandelbrot (coverage-frequency estimator),12152.0
+parsere,2,parsere_aflpp_run_02,Poisson (hit-count estimator),12152.0
+parsere,2,parsere_aflpp_run_02,Exponential (hit-count estimator),12152.000463864428
+parsere,2,parsere_aflpp_run_02,Gamma (hit-count estimator),13468.64141991261
+parsere,2,parsere_aflpp_run_02,Negative Binomial (hit-count estimator),13380.358255785444
+parsere,3,parsere_aflpp_run_03,Chao2 (incidence-based),12198.39188068833
+parsere,3,parsere_aflpp_run_03,Chao2_bc (incidence-based),12198.224593389823
+parsere,3,parsere_aflpp_run_03,Jackknife1 (incidence-based),12495.490341753342
+parsere,3,parsere_aflpp_run_03,Chao1 (incidence-based),12198.45942812983
+parsere,3,parsere_aflpp_run_03,Poisson (incidence-frequency estimator),12153.0
+parsere,3,parsere_aflpp_run_03,Exponential (incidence-frequency estimator),1.2153e+16
+parsere,3,parsere_aflpp_run_03,Gamma (incidence-frequency estimator),1.2153e+16
+parsere,3,parsere_aflpp_run_03,Negative Binomial (incidence-frequency estimator),12247.598257112013
+parsere,3,parsere_aflpp_run_03,ztPoisson (incidence-frequency estimator),12153.0
+parsere,3,parsere_aflpp_run_03,ztNB (incidence-frequency estimator),12247.598257112013
+parsere,3,parsere_aflpp_run_03,Gamma-Poisson (incidence-frequency estimator),12247.598257112013
+parsere,3,parsere_aflpp_run_03,Lanumteang-Bohning (incidence-based),12180.140234458973
+parsere,3,parsere_aflpp_run_03,Chiu (incidence-based),12153.132534775888
+parsere,3,parsere_aflpp_run_03,Beta-Binomial (incidence-based),12198.39188068833
+parsere,3,parsere_aflpp_run_03,Zipf-Mandelbrot (coverage-frequency estimator),12153.0
+parsere,3,parsere_aflpp_run_03,Poisson (hit-count estimator),12153.0
+parsere,3,parsere_aflpp_run_03,Exponential (hit-count estimator),12153.000515459093
+parsere,3,parsere_aflpp_run_03,Gamma (hit-count estimator),13487.652719883245
+parsere,3,parsere_aflpp_run_03,Negative Binomial (hit-count estimator),13434.08100081646
+parserf,1,parserf_aflpp_run_01,Chao2 (incidence-based),14027.454941884364
+parserf,1,parserf_aflpp_run_01,Chao2_bc (incidence-based),14027.322999029591
+parserf,1,parserf_aflpp_run_01,Jackknife1 (incidence-based),14359.445765230312
+parserf,1,parserf_aflpp_run_01,Chao1 (incidence-based),14027.51514269074
+parserf,1,parserf_aflpp_run_01,Poisson (incidence-frequency estimator),13987.0
+parserf,1,parserf_aflpp_run_01,Exponential (incidence-frequency estimator),1.3987e+16
+parserf,1,parserf_aflpp_run_01,Gamma (incidence-frequency estimator),1.3987e+16
+parserf,1,parserf_aflpp_run_01,Negative Binomial (incidence-frequency estimator),14153.711821116605
+parserf,1,parserf_aflpp_run_01,ztPoisson (incidence-frequency estimator),13987.0
+parserf,1,parserf_aflpp_run_01,ztNB (incidence-frequency estimator),14153.711821116605
+parserf,1,parserf_aflpp_run_01,Gamma-Poisson (incidence-frequency estimator),14153.711821116605
+parserf,1,parserf_aflpp_run_01,Lanumteang-Bohning (incidence-based),13995.18891722308
+parserf,1,parserf_aflpp_run_01,Chiu (incidence-based),13987.108619685498
+parserf,1,parserf_aflpp_run_01,Beta-Binomial (incidence-based),14027.454941884364
+parserf,1,parserf_aflpp_run_01,Zipf-Mandelbrot (coverage-frequency estimator),13987.0
+parserf,1,parserf_aflpp_run_01,Poisson (hit-count estimator),13987.0
+parserf,1,parserf_aflpp_run_01,Exponential (hit-count estimator),13987.001027991273
+parserf,1,parserf_aflpp_run_01,Gamma (hit-count estimator),15784.41078917627
+parserf,1,parserf_aflpp_run_01,Negative Binomial (hit-count estimator),16611.343990791018
+parserf,2,parserf_aflpp_run_02,Chao2 (incidence-based),14048.135156411443
+parserf,2,parserf_aflpp_run_02,Chao2_bc (incidence-based),14047.987839352863
+parserf,2,parserf_aflpp_run_02,Jackknife1 (incidence-based),14396.411589895988
+parserf,2,parserf_aflpp_run_02,Chao1 (incidence-based),14048.205298013245
+parserf,2,parserf_aflpp_run_02,Poisson (incidence-frequency estimator),14001.0
+parserf,2,parserf_aflpp_run_02,Exponential (incidence-frequency estimator),1.4001e+16
+parserf,2,parserf_aflpp_run_02,Gamma (incidence-frequency estimator),1.4001e+16
+parserf,2,parserf_aflpp_run_02,Negative Binomial (incidence-frequency estimator),14158.261333068913
+parserf,2,parserf_aflpp_run_02,ztPoisson (incidence-frequency estimator),14001.0
+parserf,2,parserf_aflpp_run_02,ztNB (incidence-frequency estimator),14158.261333068913
+parserf,2,parserf_aflpp_run_02,Gamma-Poisson (incidence-frequency estimator),14158.261333068913
+parserf,2,parserf_aflpp_run_02,Lanumteang-Bohning (incidence-based),14012.291508941022
+parserf,2,parserf_aflpp_run_02,Chiu (incidence-based),14001.119205298013
+parserf,2,parserf_aflpp_run_02,Beta-Binomial (incidence-based),14048.135156411443
+parserf,2,parserf_aflpp_run_02,Zipf-Mandelbrot (coverage-frequency estimator),14001.0
+parserf,2,parserf_aflpp_run_02,Poisson (hit-count estimator),14001.0
+parserf,2,parserf_aflpp_run_02,Exponential (hit-count estimator),14001.000991410718
+parserf,2,parserf_aflpp_run_02,Gamma (hit-count estimator),15795.60636384031
+parserf,2,parserf_aflpp_run_02,Negative Binomial (hit-count estimator),16553.173964992675
+parserf,3,parserf_aflpp_run_03,Chao2 (incidence-based),14024.523416945305
+parserf,3,parserf_aflpp_run_03,Chao2_bc (incidence-based),14024.38569972694
+parserf,3,parserf_aflpp_run_03,Jackknife1 (incidence-based),14367.424962852898
+parserf,3,parserf_aflpp_run_03,Chao1 (incidence-based),14024.588183934808
+parserf,3,parserf_aflpp_run_03,Poisson (incidence-frequency estimator),13981.0
+parserf,3,parserf_aflpp_run_03,Exponential (incidence-frequency estimator),1.3981e+16
+parserf,3,parserf_aflpp_run_03,Gamma (incidence-frequency estimator),1.3981e+16
+parserf,3,parserf_aflpp_run_03,Negative Binomial (incidence-frequency estimator),14142.439115676805
+parserf,3,parserf_aflpp_run_03,ztPoisson (incidence-frequency estimator),13981.0
+parserf,3,parserf_aflpp_run_03,ztNB (incidence-frequency estimator),14142.439115676805
+parserf,3,parserf_aflpp_run_03,Gamma-Poisson (incidence-frequency estimator),14142.439115676805
+parserf,3,parserf_aflpp_run_03,Lanumteang-Bohning (incidence-based),13990.12150095466
+parserf,3,parserf_aflpp_run_03,Chiu (incidence-based),13981.11263096624
+parserf,3,parserf_aflpp_run_03,Beta-Binomial (incidence-based),14024.523416945305
+parserf,3,parserf_aflpp_run_03,Zipf-Mandelbrot (coverage-frequency estimator),13981.0
+parserf,3,parserf_aflpp_run_03,Poisson (hit-count estimator),13981.0
+parserf,3,parserf_aflpp_run_03,Exponential (hit-count estimator),13981.001018699373
+parserf,3,parserf_aflpp_run_03,Gamma (hit-count estimator),15770.92401957056
+parserf,3,parserf_aflpp_run_03,Negative Binomial (hit-count estimator),16571.112448484128

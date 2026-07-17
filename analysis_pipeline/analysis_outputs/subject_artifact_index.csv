@@ -1,0 +1,6 @@
+subject,artifact_dir,n_campaigns,n_intervals,n_blocks,n_nonzero_final_blocks
+parserd,analysis_outputs_new/subject_artifacts/parserd,3,673,136455,3272918
+parsere,analysis_outputs_new/subject_artifacts/parsere,3,673,231510,3384097
+parserf,analysis_outputs_new/subject_artifacts/parserf,3,673,331301,3719571
+parsera,analysis_outputs_new/subject_artifacts/parsera,3,673,104952,4160935
+parserb,analysis_outputs_new/subject_artifacts/parserb,3,673,194852,4967799

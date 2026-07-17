@@ -1,0 +1,15 @@
+subject,estimator_label,n,mean_estimate,median_estimate,std_estimate,min_estimate,max_estimate,mean_unseen_vs_observed
+freetype2,Gamma-Poisson (incidence-frequency estimator),1,7206.991105566943,7206.991105566943,,7206.991105566943,7206.991105566943,2.9911055669426787
+freetype2,Zipf-Mandelbrot (coverage-frequency estimator),1,7204.0,7204.0,,7204.0,7204.0,0.0
+jasper,Gamma-Poisson (incidence-frequency estimator),1,4644.058967288355,4644.058967288355,,4644.058967288355,4644.058967288355,1.058967288355234
+jasper,Zipf-Mandelbrot (coverage-frequency estimator),1,4643.0,4643.0,,4643.0,4643.0,0.0
+jsoncpp,Gamma-Poisson (incidence-frequency estimator),1,1108.0000000846962,1108.0000000846962,,1108.0000000846962,1108.0000000846962,8.469623935525307e-08
+jsoncpp,Zipf-Mandelbrot (coverage-frequency estimator),1,1108.0,1108.0,,1108.0,1108.0,0.0
+libpcap,Gamma-Poisson (incidence-frequency estimator),1,1723.000217281982,1723.000217281982,,1723.000217281982,1723.000217281982,0.0002172819820316
+libpcap,Zipf-Mandelbrot (coverage-frequency estimator),1,1723.0,1723.0,,1723.0,1723.0,0.0
+libtiff,Gamma-Poisson (incidence-frequency estimator),1,6281.085865712372,6281.085865712372,,6281.085865712372,6281.085865712372,64.08586571237174
+libtiff,Zipf-Mandelbrot (coverage-frequency estimator),1,6217.0,6217.0,,6217.0,6217.0,0.0
+libxml2,Gamma-Poisson (incidence-frequency estimator),1,13764.948694695711,13764.948694695711,,13764.948694695711,13764.948694695711,709.9486946957131
+libxml2,Zipf-Mandelbrot (coverage-frequency estimator),1,13055.0,13055.0,,13055.0,13055.0,0.0
+zlib,Gamma-Poisson (incidence-frequency estimator),1,632.0,632.0,,632.0,632.0,0.0
+zlib,Zipf-Mandelbrot (coverage-frequency estimator),1,632.0,632.0,,632.0,632.0,0.0

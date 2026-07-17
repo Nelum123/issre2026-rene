@@ -1,0 +1,275 @@
+subject,model,fit_family,n_obs,S_obs,lambda,p0,p_seen,estimate,unseen,loglik,aic,bic,rmse,rate,scale,mean,shape,size,prob,fit_input,base_model,best_by_rmse,best_by_aic,best_by_bic,best_by_loglik,n_obs_discrete,gof_stat,gof_p,gof_name,mu,J,C,s,q,pred,ranks
+parsera,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,9995,9995.0,,1.0,1e-12,9995000000000000.0,9994999999990004.0,-6628129.34528894,13256260.69057788,13256267.900418129,91.38836957933071,404.0621310251552,0.0024748669157955,0.0024748669157955,,,,incidence_frequency,Exponential,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parsera,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,9995,9995.0,,0.0015639335968425,0.9984360664031576,10010.656001246783,15.65600124678349,-70250.75630071791,140505.51260143582,140519.93228192968,90.58869701019474,0.0025920780403741,385.7908536795596,416.15204139238,1.0786985679500802,,,incidence_frequency,Gamma,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parsera,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,9995,9995.0,,0.0015944601368675,0.9984055398631324,10010.962079968202,15.96207996820158,-70249.98899928454,140503.97799856908,140518.39767906294,90.58962093004772,0.0026028983813739,384.1871074014591,415.6443164634733,1.081879918550059,,,incidence_frequency,Gamma-Poisson,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parsera,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,9995,9995.0,,0.0015947681550307,0.9984052318449692,10010.965168451768,15.965168451768475,-70249.98899333624,140503.9779866725,140518.39766716634,90.58961564110642,,,415.6371744588256,,1.0818446868460958,0.0025961010588478,incidence_frequency,Negative Binomial,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parsera,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,9995,9995.0,416.3016508254127,1.5940070552852254e-181,1.0,9995.0,0.0,-1034494.5911870638,2068991.182374128,2068998.3922143744,99.57935421843472,,,,,,,incidence_frequency,Poisson,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parsera,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,9995,9995.0,,,,,,-66559.03980503471,133122.07961006943,133136.49929056328,188.72578039303173,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,4160935.0,0.001218112162421,0.3074734066834577,100.0,"[1226.3168344  1222.60755046 1218.9455113  ...  297.67917759  297.67010967
+  297.66104292]",[1.000e+00 2.000e+00 3.000e+00 ... 9.993e+03 9.994e+03 9.995e+03]
+parsera,Exponential (hit-count),Exponential on nonzero averaged hit counts,9995,,,,,,,-176002.12773415493,352006.25546830986,352013.4653085568,435.3731640066534,6.120620387516616e-08,,,,,,nonzero_averaged_hit_count,Exponential,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.6444620324996039,0.0,KS,,,,,,,
+parsera,Gamma (hit-count),Gamma on nonzero averaged hit counts,9995,,,,,,,-142298.6849897434,284601.3699794868,284615.7896599807,127.71123688077572,8.697929820280647e-09,114969886.01452456,16338213.068066789,0.1421086306548371,,,nonzero_averaged_hit_count,Gamma,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.1681368213681666,1.839378319495174e-247,KS,,,,,,,
+parsera,Negative Binomial (hit-count),Negative Binomial on nonzero averaged hit counts,9995,,,,,,,-142340.00626942405,284684.0125388481,284698.4318191018,2.6461927602618904,,,,,0.1383133778735317,6.607971162278782e-09,nonzero_averaged_hit_count,Negative Binomial,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),9993.0,3026067797.714677,0.0,Chi-square,20931292.459191527,,,,,,
+parsera,Poisson (hit-count),Poisson on nonzero averaged hit counts,9995,,16338213.064032016,,,,,-322943946411.7535,645887892825.507,645887892832.7168,2.9741308890925677,,,,,,,nonzero_averaged_hit_count,Poisson,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),9995.0,6.519099999998e+16,0.0,Chi-square,,,,,,,
+parserb,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,19502,19502.0,,1.0,1e-12,1.9502e+16,1.9501999999980496e+16,-12932644.171268124,25865290.34253625,25865298.22080855,93.60352671985764,485165195.4097903,2.061153622438558e-09,2.061153622438558e-09,,,,incidence_frequency,Exponential,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserb,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,19502,19502.0,,1.0,1e-12,1.9502e+16,1.9501999999980496e+16,-12932644.171268124,25865292.34253625,25865308.099080857,93.60352671985764,485165195.4097903,2.061153622438558e-09,4.248354255291589e-18,2.061153622438558e-09,,,incidence_frequency,Gamma,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserb,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,19502,19502.0,,0.0033981804548306,0.9966018195451694,19568.49728500431,66.49728500430865,-127667.41028561626,255338.82057123253,255354.5771158393,86.64604588228741,0.0040472606079744,247.08070392839463,254.73279663624248,1.0309700133850417,,,incidence_frequency,Gamma-Poisson,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserb,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,19502,19502.0,,0.0033981804548306,0.9966018195451694,19568.49728500431,66.49728500430865,-127667.41028561749,255338.82057123492,255354.57711584173,86.64604588228718,,,254.73279663624248,,1.0309700133850417,0.0040309463177298,incidence_frequency,Negative Binomial,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserb,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,19502,19502.0,254.73279663624243,2.3493734746930672e-111,1.0,19502.0,0.0,-2560609.2950489903,5121220.590097981,5121228.468370284,134.02356432016123,,,,,,,incidence_frequency,Poisson,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserb,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,19502,19502.0,,,,,,-127941.21978724928,255886.4395744985,255902.19611910533,170.96806726129762,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,4967799.0,0.0022830489847955,0.4374604819534937,100.0,"[1506.1487001  1499.67118278 1493.28431375 ...  150.30964041  150.30628571
+  150.30293126]",[1.0000e+00 2.0000e+00 3.0000e+00 ... 1.9500e+04 1.9501e+04 1.9502e+04]
+parserb,Exponential (hit-count),Exponential on nonzero averaged hit counts,19502,,,,,,,-333233.0590816793,666468.1181633587,666475.996435662,845.0175952783669,1.0314580168359717e-07,,,,,,nonzero_averaged_hit_count,Exponential,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.7337258349230762,0.0,KS,,,,,,,
+parserb,Gamma (hit-count),Gamma on nonzero averaged hit counts,19502,,,,,,,-269540.3560802444,539084.7121604888,539100.4687050956,358.1016803072861,1.4955533200496863e-08,66864884.49417353,9695014.083729068,0.1449941050084947,,,nonzero_averaged_hit_count,Gamma,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.2578912851698807,0.0,KS,,,,,,,
+parserb,Negative Binomial (hit-count),Negative Binomial on nonzero averaged hit counts,19502,,,,,,,-269554.16551782144,539112.3310356429,539128.0875802496,6.50562332740507,,,,,0.1418437387118407,1.4297605866222922e-08,nonzero_averaged_hit_count,Negative Binomial,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),19502.0,5651346704.464094,0.0,Chi-square,9920803.385615114,,,,,,
+parserb,Poisson (hit-count),Poisson on nonzero averaged hit counts,19502,,9695014.078043278,,,,,-478924264504.72986,957848529011.4596,957848529019.338,6.511451097532945,,,,,,,nonzero_averaged_hit_count,Poisson,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),19502.0,5.0645599999996096e+17,0.0,Chi-square,,,,,,,
+parserd,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,8897,8897.0,,1.0,1e-12,8897000000000000.0,8896999999991102.0,-5899996.676841991,11799995.353683982,11800002.447153402,58.67464772552355,510.3632140522506,0.0019593888675088,0.0019593888675088,,,,incidence_frequency,Exponential,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parserd,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,8897,8897.0,,0.0008214315978729,0.9991785684021272,8904.31428511118,7.314285111180652,-61345.74541006281,122695.49082012562,122709.6777589661,57.53381395324821,0.0033296833018031,300.3288629457499,368.0668455123897,1.2255460294499754,,,incidence_frequency,Gamma,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parserd,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,8897,8897.0,,0.0008771835417442,0.9991228164582556,8904.811153786442,7.811153786442446,-61341.88639124499,122687.77278248998,122701.95972133048,57.53488043215293,0.003360291344816,297.59324337834425,367.54998995122526,1.2350750500203451,,,incidence_frequency,Gamma-Poisson,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parserd,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,8897,8897.0,,0.0008772136741119,0.999122786325888,8904.811422345068,7.811422345068422,-61341.88639093885,122687.7727818777,122701.9597207182,57.534886574086265,,,367.546811523557,,1.235070008800005,0.0033490528430194,incidence_frequency,Negative Binomial,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parserd,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,8897,8897.0,367.86759581881535,1.726366757987785e-160,1.0,8897.0,0.0,-736380.8674133879,1472763.7348267755,1472770.828296196,70.89173975360427,,,,,,,incidence_frequency,Poisson,Gamma (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+parserd,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,8897,8897.0,,,,,,-56632.00208361389,113268.0041672278,113282.19110606828,140.66108891772677,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,3272918.0,0.0017113508754525,0.3401640752716308,100.0,"[1165.40280561 1161.5036153  1157.65532218 ...  253.08420119  253.07463101
+  253.06506226]",[1.000e+00 2.000e+00 3.000e+00 ... 8.895e+03 8.896e+03 8.897e+03]
+parserd,Exponential (hit-count),Exponential on nonzero averaged hit counts,8897,,,,,,,-158710.04642027468,317422.09284054936,317429.18630996963,407.1485077302462,4.86505609772608e-08,,,,,,nonzero_averaged_hit_count,Exponential,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.6155806042487587,0.0,KS,,,,,,,
+parserd,Gamma (hit-count),Gamma on nonzero averaged hit counts,8897,,,,,,,-134143.93512202782,268291.87024405564,268306.0571828961,132.52210755643654,7.823079573296266e-09,127826898.68238787,20554747.569455545,0.1608014258448687,,,nonzero_averaged_hit_count,Gamma,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.1922535539971506,1.684928168924173e-288,KS,,,,,,,
+parserd,Negative Binomial (hit-count),Negative Binomial on nonzero averaged hit counts,8897,,,,,,,-134157.4075459683,268318.8150919366,268333.00158113684,2.013739022923276,,,,,0.1663812025227586,9.276322405700489e-09,nonzero_averaged_hit_count,Negative Binomial,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),8895.0,4206902845.352329,0.0,Chi-square,17936116.67454641,,,,,,
+parserd,Poisson (hit-count),Poisson on nonzero averaged hit counts,8897,,20554747.56794425,,,,,-276760372503.12146,553520745008.2429,553520745015.3364,2.2315719645040466,,,,,,,nonzero_averaged_hit_count,Poisson,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),8897.0,3.5699999999985536e+16,0.0,Chi-square,,,,,,,
+parsere,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,12236,12236.0,,1.0,1e-12,1.2236e+16,1.2235999999987764e+16,-8114236.18498804,16228474.36997608,16228481.782113789,125.5585232912698,15451301.43369336,6.471946743718196e-08,6.471946743718196e-08,,,,incidence_frequency,Exponential,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parsere,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,12236,12236.0,,1.0,1e-12,1.2236e+16,1.2235999999987764e+16,-8114236.18498804,16228476.36997608,16228491.19425149,125.5585232912698,485165195.4097903,2.061153622438558e-09,4.248354255291589e-18,2.061153622438558e-09,,,incidence_frequency,Gamma,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parsere,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,12236,12236.0,,0.0058255497427184,0.9941744502572816,12307.699113403543,71.69911340354338,-79626.60060108418,159257.20120216836,159272.0254775789,122.56813998538696,0.0032446485001141,308.19979420415507,276.5688950637463,0.897368850546811,,,incidence_frequency,Gamma-Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parsere,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,12236,12236.0,,0.0058255497427184,0.9941744502572816,12307.699113403543,71.69911340354338,-79626.60060108466,159257.20120216932,159272.02547757985,122.56813998538702,,,276.5688950637464,,0.897368850546811,0.0032341548045783,incidence_frequency,Negative Binomial,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parsere,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,12236,12236.0,276.5688950637463,7.7206703142126535e-121,1.0,12236.0,0.0,-2325094.8014264083,4650191.602852817,4650199.014990522,139.28164109480744,,,,,,,incidence_frequency,Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parsere,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,12236,12236.0,,,,,,-83094.2000755393,166192.4001510786,166207.22442648912,215.29788296479964,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,3384097.0,0.003447767610687,0.4544406200499885,100.0,"[1432.63560542 1426.23562732 1419.92626286 ...  161.36783613  161.36189096
+  161.35594649]",[1.0000e+00 2.0000e+00 3.0000e+00 ... 1.2234e+04 1.2235e+04 1.2236e+04]
+parsere,Exponential (hit-count),Exponential on nonzero averaged hit counts,12236,,,,,,,-220307.04023191804,440616.0804638361,440623.4926015413,616.980065164833,4.1200101162328624e-08,,,,,,nonzero_averaged_hit_count,Exponential,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.7580271911308047,0.0,KS,,,,,,,
+parsere,Gamma (hit-count),Gamma on nonzero averaged hit counts,12236,,,,,,,-169030.55420960067,338065.10841920134,338079.9326946119,256.2048070764697,5.089644358259479e-09,196477382.23147148,24271785.06334231,0.1235347539125268,,,nonzero_averaged_hit_count,Gamma,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.2604396625238223,0.0,KS,,,,,,,
+parsere,Negative Binomial (hit-count),Negative Binomial on nonzero averaged hit counts,12236,,,,,,,-169040.931820879,338085.863641758,338100.6875902376,5.7838391490005625,,,,,0.1221638620358364,5.6906982608735514e-09,nonzero_averaged_hit_count,Negative Binomial,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),12234.0,2111168556.2977445,0.0,Chi-square,21467288.501408964,,,,,,
+parsere,Poisson (hit-count),Poisson on nonzero averaged hit counts,12236,,24271785.05851585,,,,,-574196456846.8489,1148392913695.6978,1148392913703.11,6.011358790775552,,,,,,,nonzero_averaged_hit_count,Poisson,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),12236.0,2.781059999999756e+17,0.0,Chi-square,,,,,,,
+parserf,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,14186,14186.0,,1.0,1e-12,1.4186e+16,1.4185999999985814e+16,-9407367.973213498,18814737.946426995,18814745.50643784,144.4063043045267,485165195.4097903,2.061153622438558e-09,2.061153622438558e-09,,,,incidence_frequency,Exponential,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserf,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,14186,14186.0,,1.0,1e-12,1.4186e+16,1.4185999999985814e+16,-9407367.973213498,18814739.946426995,18814755.06644868,144.4063043045267,485165195.4097903,2.061153622438558e-09,4.248354255291589e-18,2.061153622438558e-09,,,incidence_frequency,Gamma,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserf,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,14186,14186.0,,0.0100904674966004,0.9899095325033996,14330.60247851617,144.60247851616987,-89780.47955318345,179564.9591063669,179580.07912805042,139.1195068438635,0.003019286612827,331.2040651429439,262.20012688566203,0.7916573329874422,,,incidence_frequency,Gamma-Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserf,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,14186,14186.0,,0.0100904674966004,0.9899095325033996,14330.60247851617,144.60247851616987,-89780.47955318421,179564.95910636842,179580.07912805193,139.11950684386355,,,262.2001268856618,,0.7916573329874422,0.0030101979624172,incidence_frequency,Negative Binomial,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserf,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,14186,14186.0,262.2001268856619,1.3425539269699832e-114,1.0,14186.0,0.0,-2784390.16287374,5568782.32574748,5568789.885758322,161.02398025061035,,,,,,,incidence_frequency,Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+parserf,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,14186,14186.0,,,,,,-96582.70673370344,193169.41346740688,193184.5334890904,219.06597766552505,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,3719571.0,0.0033357705072248,0.4610004942252833,100.0,"[1478.07296576 1471.37490868 1464.77211023 ...  150.76522746  150.76036193
+  150.75549689]",[1.0000e+00 2.0000e+00 3.0000e+00 ... 1.4184e+04 1.4185e+04 1.4186e+04]
+parserf,Exponential (hit-count),Exponential on nonzero averaged hit counts,14186,,,,,,,-247226.87955524548,494455.75911049097,494463.3191213327,716.9662351974554,7.338651054613969e-08,,,,,,nonzero_averaged_hit_count,Exponential,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.7775985161112305,0.0,KS,,,,,,,
+parserf,Gamma (hit-count),Gamma on nonzero averaged hit counts,14186,,,,,,,-183969.3155471485,367942.631094297,367957.75111598056,312.07792773876264,8.700702885352813e-09,114933243.11573134,13626482.47692985,0.118559975404233,,,nonzero_averaged_hit_count,Gamma,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),,0.2472633913188882,0.0,KS,,,,,,,
+parserf,Negative Binomial (hit-count),Negative Binomial on nonzero averaged hit counts,14186,,,,,,,-184194.57541308235,368393.1508261647,368408.2702838325,6.72838093395658,,,,,0.0975509826823766,7.15690759428409e-09,nonzero_averaged_hit_count,Negative Binomial,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),14182.0,1350654249.338682,0.0,Chi-square,13630325.765575476,,,,,,
+parserf,Poisson (hit-count),Poisson on nonzero averaged hit counts,14186,,13626482.473565487,,,,,-424504540842.14496,849009081686.2899,849009081693.85,7.5114467681721555,,,,,,,nonzero_averaged_hit_count,Poisson,Negative Binomial (hit-count),Gamma (hit-count),Gamma (hit-count),Gamma (hit-count),14186.0,4.569030000014841e+17,0.0,Chi-square,,,,,,,
+freetype2,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,7204,7204.0,,0.0021653249169539,0.997834675083046,7219.63285090332,15.632850903320104,-51394.065722817744,102790.13144563547,102797.0138373418,72.97756155884511,0.0021676726225945,461.3242745129409,461.3242745129409,,,,incidence_frequency,Exponential,Exponential (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+freetype2,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,7204,7204.0,,0.0003872554808261,0.9996127445191738,7206.79086926329,2.7908692632900056,-51250.453670185976,102504.90734037197,102518.67212378456,72.98608210627931,0.0028386876532061,352.2754604123338,462.1459935145018,1.3118881257683006,,,incidence_frequency,Gamma,Exponential (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+freetype2,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,7204,7204.0,,0.0004150283416656,0.9995849716583344,7206.991105566943,2.9911055669426787,-51242.75323107657,102489.50646215312,102503.27124556572,72.98491076610692,0.0028825862477647,346.9106954823718,461.632843538076,1.3306964862994075,,,incidence_frequency,Gamma-Poisson,Exponential (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+freetype2,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,7204,7204.0,,0.0004151904155077,0.9995848095844924,7206.992274116852,2.992274116852059,-51242.753235578726,102489.50647115744,102503.27125457003,72.98490764660353,,,461.6378986711129,,1.3306130717022548,0.0028740897878632,incidence_frequency,Negative Binomial,Exponential (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+freetype2,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,7204,7204.0,461.8244031093837,2.7052669158455128e-201,1.0,7204.0,0.0,-595927.6217671908,1191857.2435343815,1191864.1259260878,78.0641526390169,,,,,,,incidence_frequency,Poisson,Exponential (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+freetype2,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,7204,7204.0,,,,,,-47351.3463154576,94706.6926309152,94720.4574143278,173.12012528687546,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,3326983.0,0.0011569036049432,0.2702857866968273,100.0,"[1105.62583129 1102.68553744 1099.78163525 ...  347.62767364  347.61480721
+  347.60194303]",[1.000e+00 2.000e+00 3.000e+00 ... 7.202e+03 7.203e+03 7.204e+03]
+jasper,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,4643,4643.0,,0.0020911619626738,0.9979088380373262,4652.729611185518,9.72961118551757,-33285.62536939152,66573.25073878304,66579.69385477106,57.62310968850634,0.0020933514948276,477.70286188002666,477.70286188002666,,,,incidence_frequency,Exponential,Exponential (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jasper,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,4643,4643.0,,0.0001997838091026,0.9998002161908972,4643.927781581402,0.9277815814020868,-33132.077695605425,66268.15539121085,66281.04162318689,57.63920033578079,0.002975195260559,336.1123934474409,478.61409289051056,1.4239703808046371,,,incidence_frequency,Gamma,Exponential (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jasper,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,4643,4643.0,,0.0002280262364914,0.9997719737635086,4644.058967288355,1.058967288355234,-33126.27565648553,66256.55131297106,66269.4375449471,57.6382896469708,0.0030216125497635,330.9491152590863,478.09897275244833,1.4446298560978614,,,incidence_frequency,Gamma-Poisson,Exponential (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jasper,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,4643,4643.0,,0.0002280276584778,0.9997719723415222,4644.05897389365,1.058973893649636,-33126.27565630561,66256.55131261122,66269.43754458726,57.63829054883197,,,478.0954640282531,,1.4446307575271256,0.003012533828214,incidence_frequency,Negative Binomial,Exponential (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jasper,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,4643,4643.0,478.203962954986,2.08284841622529e-208,1.0,4643.0,0.0,-362295.21407970594,724592.4281594119,724598.8712753999,60.94739148272532,,,,,,,incidence_frequency,Poisson,Exponential (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jasper,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,4643,4643.0,,,,,,-30423.90941112076,60851.81882224151,60864.70505421755,169.64395766164944,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,2220301.0,0.0016578864544247,0.2740536064312817,100.0,"[1039.14257026 1036.34061013 1033.57343174 ...  361.89386409  361.87294762
+  361.85203677]",[1.000e+00 2.000e+00 3.000e+00 ... 4.641e+03 4.642e+03 4.643e+03]
+jsoncpp,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,1108,1108.0,,0.0017704204032001,0.9982295795968,1109.965104868499,1.9651048684993384,-8127.924151785225,16257.84830357045,16262.858615437755,58.03428309835974,0.0017719894495901,564.3374458190555,564.3374458190555,,,,incidence_frequency,Exponential,Gamma-Poisson (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jsoncpp,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,1108,1108.0,,1.1735852709938524e-12,0.9999999999988264,1108.0000000013004,1.300350049859844e-09,-7641.807181912317,15287.614363824634,15297.634987559248,57.95250117640399,0.008530554817367,117.22566953841437,565.3476173682374,4.822728840827609,,,incidence_frequency,Gamma,Gamma-Poisson (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jsoncpp,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,1108,1108.0,,7.644067123664822e-11,0.9999999999235594,1108.0000000846962,8.469623935525307e-08,-7640.109030349861,15284.218060699724,15294.238684434336,57.95185599112786,0.0086703121748379,115.33610091942217,564.8495496720722,4.89742192747348,,,incidence_frequency,Gamma-Poisson,Gamma-Poisson (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jsoncpp,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,1108,1108.0,,7.657888942100223e-11,0.9999999999234211,1108.0000000848493,8.484926183882635e-08,-7640.109028923528,15284.218057847056,15294.23868158167,57.9518622681228,,,564.8481836680579,,4.896945236407305,0.0085949751704299,incidence_frequency,Negative Binomial,Gamma-Poisson (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jsoncpp,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,1108,1108.0,564.8483754512636,4.891785771520334e-246,1.0,1108.0,0.0,-49911.95035126702,99825.90070253404,99830.91101440135,58.19466442769228,,,,,,,incidence_frequency,Poisson,Gamma-Poisson (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),Negative Binomial (incidence-frequency),,,,,,,,,,,
+jsoncpp,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,1108,1108.0,,,,,,-7165.505015093703,14335.010030187406,14345.03065392202,155.7300025350955,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,625852.0,0.0045520486843714,0.2580579599050355,100.0,"[865.85956307 863.66094286 861.48927436 ... 456.57522586 456.47757954
+ 456.38003495]",[1.000e+00 2.000e+00 3.000e+00 ... 1.106e+03 1.107e+03 1.108e+03]
+libpcap,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,1723,1723.0,,0.0019806436568653,0.9980193563431348,1726.419421676633,3.4194216766329646,-12445.818558495144,24893.63711699029,24899.08893922682,22.720621593226937,0.0019826077253548,504.3862117610996,504.3862117610996,,,,incidence_frequency,Exponential,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libpcap,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,1723,1723.0,,2.7013068902212317e-08,0.9999999729869312,1723.000046543519,4.6543518919861526e-05,-12006.94356278023,24017.88712556046,24028.79077003352,22.64311358003073,0.0060281346966439,165.88879484672682,505.38810686284194,3.046547582251085,,,incidence_frequency,Gamma,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libpcap,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,1723,1723.0,,1.2610676409405898e-07,0.999999873893236,1723.000217281982,0.0002172819820316,-12000.98433199256,24005.96866398512,24016.87230845817,22.641956236938757,0.0061781741147486,161.86011941825691,504.8864557800491,3.119276431987488,,,incidence_frequency,Gamma-Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libpcap,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,1723,1723.0,,1.2611864366823297e-07,0.9999998738813564,1723.0002173024504,0.0002173024504372,-12000.984332051336,24005.968664102675,24016.87230857573,22.641956247762103,,,504.8883833481551,,3.119250564030968,0.006140164745182,incidence_frequency,Negative Binomial,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libpcap,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,1723,1723.0,504.8862449216483,5.37885505807748e-220,1.0,1723.0,0.0,-97751.92550107728,195505.85100215452,195511.30282439108,24.04363338461221,,,,,,,incidence_frequency,Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libpcap,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,1723,1723.0,,,,,,-11108.49035210526,22220.98070421052,22231.884348683576,152.66424143372095,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,869919.0,0.0046772886297542,0.3163685448301193,100.0,"[944.86279943 941.92228811 939.01948294 ... 378.45432582 378.38859942
+ 378.32292048]",[1.000e+00 2.000e+00 3.000e+00 ... 1.721e+03 1.722e+03 1.723e+03]
+libtiff,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,6217,6217.0,,1.0,1e-12,6217000000000000.0,6216999999993783.0,-4122769.3986654654,8245540.797330933,8245547.532373687,46.30968486251488,107.6784823841074,0.0092869065189164,0.0092869065189164,,,,incidence_frequency,Exponential,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libtiff,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,6217,6217.0,,1.0,1e-12,6217000000000000.0,6216999999993783.0,-4122769.3986654654,8245542.797330933,8245556.267416441,46.30968486251488,485165195.4097903,2.061153622438558e-09,4.248354255291589e-18,2.061153622438558e-09,,,incidence_frequency,Gamma,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libtiff,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,6217,6217.0,,0.0102029915021871,0.9897970084978128,6281.085865712372,64.08586571237174,-41549.7053659204,83103.4107318408,83116.88081734935,44.48699179470202,0.0025897929281148,386.13125750092354,297.11540356228267,0.7694673709796003,,,incidence_frequency,Gamma-Poisson,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libtiff,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,6217,6217.0,,0.0102045333153711,0.9897954666846288,6281.095649815576,64.0956498155756,-41549.70537246349,83103.41074492698,83116.88083043552,44.4869826763072,,,297.11736021711533,,0.7694358965028971,0.002582980872403,incidence_frequency,Negative Binomial,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libtiff,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,6217,6217.0,300.17612996622165,4.3168122121021633e-131,1.0,6217.0,0.0,-814194.2401240913,1628390.4802481823,1628397.2152909369,53.48796672033101,,,,,,,incidence_frequency,Poisson,Negative Binomial (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libtiff,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,6217,6217.0,,,,,,-40953.34212855368,81910.68425710736,81924.1543426159,175.6296004745863,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,1866195.0,0.0061859321834192,0.4794025191146244,100.0,"[1263.23881129 1257.28633036 1251.41956318 ...  173.96168921  173.94848447
+  173.93528283]",[1.000e+00 2.000e+00 3.000e+00 ... 6.215e+03 6.216e+03 6.217e+03]
+libxml2,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,13055,13055.0,,1.0,1e-12,1.3055e+16,1.3054999999986944e+16,-8657351.536042733,17314705.072085466,17314712.549011946,205.6772891212688,55458.567372901874,1.803147912703961e-05,1.803147912703961e-05,,,,incidence_frequency,Exponential,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libxml2,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,13055,13055.0,,1.0,1e-12,1.3055e+16,1.3054999999986944e+16,-8657351.536042733,17314707.072085466,17314722.02593843,205.6772891212688,485165195.4097903,2.061153622438558e-09,4.248354255291589e-18,2.061153622438558e-09,,,incidence_frequency,Gamma,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libxml2,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,13055,13055.0,,0.0515765594512742,0.9484234405487256,13764.948694695711,709.9486946957131,-88338.01870586924,176680.03741173848,176694.99126470074,199.7358836236754,0.0012052790824878,829.6833609157993,365.9121232427677,0.4410262281732108,,,incidence_frequency,Gamma-Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libxml2,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,13055,13055.0,,0.0515586700114759,0.948441329988524,13764.68906111247,709.6890611124709,-88338.01877438047,176680.03754876094,176694.9914017232,199.73608951889295,,,365.9305146348025,,0.4410829725209375,0.0012039223984652,incidence_frequency,Negative Binomial,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libxml2,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,13055,13055.0,385.821600919188,2.7530095739903343e-168,1.0,13055.0,0.0,-2374978.3503865004,4749958.700773001,4749966.177699482,211.64792669217584,,,,,,,incidence_frequency,Poisson,Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+libxml2,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,13055,13055.0,,,,,,-91065.2974179146,182134.5948358292,182149.5486887915,258.93383541960657,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,5036901.0,0.001251306773631,0.3339934832995054,100.0,"[1349.2640004  1344.83140545 1340.45640569 ...  265.33819041  265.33145303
+  265.32471634]",[1.0000e+00 2.0000e+00 3.0000e+00 ... 1.3053e+04 1.3054e+04 1.3055e+04]
+zlib,Exponential (incidence-frequency),discretized zero-truncated Exponential on incidence frequencies,632,632.0,,0.0015277116392231,0.9984722883607768,632.966991039455,0.9669910394550244,-4729.391059286263,9460.782118572526,9465.231007966671,55.677444505907374,0.001528879780523,654.0736640901025,654.0736640901025,,,,incidence_frequency,Exponential,Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+zlib,Gamma (incidence-frequency),discretized zero-truncated Gamma on incidence frequencies,632,632.0,,0.0,1.0,632.0,0.0,-3410.7522526695484,6825.504505339097,6834.402284127391,54.89741103805767,0.2283210338113683,4.379797968268524,655.0713354412547,149.56656452814093,,,incidence_frequency,Gamma,Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+zlib,Gamma-Poisson (incidence-frequency),zero-truncated Gamma-Poisson on incidence frequencies,632,632.0,,1.9231994749754005e-134,1.0,632.0,0.0,-3392.0531439152965,6788.106287830593,6797.004066618887,54.8563507113834,0.3465693323485183,2.8854255315192647,654.5677479307653,226.85310737723856,,,incidence_frequency,Gamma-Poisson,Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+zlib,Negative Binomial (incidence-frequency),zero-truncated Negative Binomial on incidence frequencies,632,632.0,,1.9266507111686958e-134,1.0,632.0,0.0,-3392.0531485395504,6788.106297079101,6797.004075867395,54.85637176086999,,,654.5631808751299,,226.85210268692776,0.2573725540248768,incidence_frequency,Negative Binomial,Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+zlib,Poisson (incidence-frequency),zero-truncated Poisson on incidence frequencies,632,632.0,654.5696202531645,5.2969503545031784e-285,1.0,632.0,0.0,-3769.683312970153,7541.366625940306,7545.815515334453,54.43775738606156,,,,,,,incidence_frequency,Poisson,Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),Gamma-Poisson (incidence-frequency),,,,,,,,,,,
+zlib,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,632,632.0,,,,,,-3227.332742480106,6458.665484960212,6467.563263748506,39.94887918159431,,,,,,,incidence_sum_axis1,Zipf-Mandelbrot,,,,,,,,,,413688.0,0.0022375913953848,0.0586921945791577,100.0,"[706.01785855 705.60971969 705.20579524 704.80600138 704.41025677
+ 704.01848241 703.63060157 703.24653971 702.86622438 702.48958516
+ 702.11655359 701.74706307 701.38104881 701.01844777 700.65919861
+ 700.30324159 699.95051854 699.60097283 699.25454926 698.91119406
+ 698.57085482 698.23348044 697.89902112 697.56742827 697.2386545
+ 696.91265358 696.58938039 696.2687909  695.95084212 695.63549208
+ 695.32269979 695.01242522 694.70462926 694.39927369 694.09632117
+ 693.7957352  693.49748008 693.20152094 692.90782364 692.61635482
+ 692.32708182 692.03997271 691.75499624 691.4721218  691.19131947
+ 690.91255992 690.63581446 690.36105498 690.08825396 689.81738442
+ 689.54841996 689.28133469 689.01610325 688.75270077 688.4911029
+ 688.23128574 687.97322588 687.71690035 687.46228662 687.20936261
+ 686.95810665 686.70849747 686.46051422 686.21413643 685.969344
+ 685.72611723 685.48443676 685.24428358 685.00563904 684.76848482
+ 684.53280292 684.29857568 684.06578573 683.83441603 683.60444982
+ 683.37587064 683.14866232 682.92280896 682.69829493 682.47510487
+ 682.2532237  682.03263655 681.81332885 681.59528623 681.37849458
+ 681.16294003 680.94860891 680.7354878  680.52356348 680.31282296
+ 680.10325344 679.89484233 679.68757725 679.48144601 679.27643661
+ 679.07253724 678.86973626 678.66802224 678.46738389 678.26781012
+ 678.06929001 677.87181279 677.67536785 677.47994476 677.28553322
+ 677.09212312 676.89970446 676.70826741 676.51780228 676.32829952
+ 676.13974971 675.9521436  675.76547202 675.57972598 675.39489659
+ 675.21097509 675.02795286 674.84582138 674.66457227 674.48419723
+ 674.30468813 674.12603691 673.94823562 673.77127646 673.59515169
+ 673.41985369 673.24537496 673.07170808 672.89884573 672.72678071
+ 672.55550589 672.38501424 672.21529883 672.04635282 671.87816946
+ 671.71074207 671.54406408 671.37812899 671.21293039 671.04846196
+ 670.88471743 670.72169065 670.55937551 670.39776601 670.2368562
+ 670.07664021 669.91711226 669.75826661 669.60009763 669.44259971
+ 669.28576736 669.12959511 668.9740776  668.8192095  668.66498557
+ 668.5114006  668.35844948 668.20612714 668.05442857 667.90334882
+ 667.752883   667.60302628 667.45377389 667.30512109 667.15706323
+ 667.0095957  666.86271393 666.71641341 666.57068969 666.42553837
+ 666.28095508 666.13693553 665.99347544 665.85057062 665.7082169
+ 665.56641016 665.42514633 665.28442137 665.14423132 665.00457222
+ 664.86544018 664.72683136 664.58874192 664.45116811 664.3141062
+ 664.17755249 664.04150332 663.9059551  663.77090424 663.63634721
+ 663.5022805  663.36870066 663.23560426 663.10298791 662.97084826
+ 662.83918197 662.70798577 662.57725641 662.44699066 662.31718533
+ 662.18783728 662.05894338 661.93050055 661.80250571 661.67495585
+ 661.54784796 661.42117908 661.29494627 661.16914661 661.04377723
+ 660.91883528 660.79431792 660.67022237 660.54654585 660.42328562
+ 660.30043897 660.1780032  660.05597565 659.93435369 659.81313469
+ 659.69231607 659.57189527 659.45186975 659.33223699 659.21299451
+ 659.09413982 658.97567049 658.8575841  658.73987825 658.62255055
+ 658.50559866 658.38902024 658.27281298 658.15697458 658.04150278
+ 657.92639533 657.81164999 657.69726457 657.58323686 657.46956471
+ 657.35624597 657.24327849 657.13066018 657.01838893 656.90646268
+ 656.79487937 656.68363696 656.57273343 656.46216678 656.35193503
+ 656.24203621 656.13246837 656.02322958 655.91431792 655.80573149
+ 655.69746841 655.5895268  655.48190483 655.37460066 655.26761245
+ 655.16093842 655.05457677 654.94852573 654.84278354 654.73734845
+ 654.63221873 654.52739268 654.42286858 654.31864476 654.21471953
+ 654.11109125 654.00775826 653.90471893 653.80197164 653.6995148
+ 653.5973468  653.49546607 653.39387104 653.29256015 653.19153188
+ 653.09078468 652.99031704 652.89012745 652.79021443 652.69057649
+ 652.59121216 652.49211999 652.39329853 652.29474635 652.19646202
+ 652.09844413 652.00069128 651.90320208 651.80597515 651.70900912
+ 651.61230264 651.51585435 651.41966292 651.32372703 651.22804535
+ 651.13261658 651.03743942 650.94251259 650.8478348  650.7534048
+ 650.65922132 650.56528312 650.47158895 650.37813759 650.28492781
+ 650.1919584  650.09922817 650.00673592 649.91448046 649.82246062
+ 649.73067522 649.63912312 649.54780316 649.45671419 649.3658551
+ 649.27522474 649.184822   649.09464578 649.00469497 648.91496849
+ 648.82546523 648.73618414 648.64712413 648.55828414 648.46966313
+ 648.38126004 648.29307383 648.20510348 648.11734795 648.02980623
+ 647.94247731 647.85536018 647.76845385 647.68175733 647.59526963
+ 647.50898979 647.42291682 647.33704978 647.25138769 647.16592962
+ 647.08067462 646.99562176 646.91077009 646.82611871 646.7416667
+ 646.65741313 646.57335712 646.48949775 646.40583414 646.3223654
+ 646.23909065 646.15600901 646.07311962 645.99042161 645.90791412
+ 645.82559631 645.74346733 645.66152633 645.57977248 645.49820496
+ 645.41682294 645.33562559 645.25461211 645.17378169 645.09313353
+ 645.01266682 644.93238079 644.85227463 644.77234757 644.69259882
+ 644.61302763 644.53363322 644.45441483 644.3753717  644.29650308
+ 644.21780822 644.13928638 644.06093682 643.9827588  643.90475161
+ 643.82691451 643.74924678 643.67174772 643.5944166  643.51725272
+ 643.44025539 643.36342389 643.28675755 643.21025567 643.13391756
+ 643.05774255 642.98172996 642.90587911 642.83018934 642.75465999
+ 642.6792904  642.6040799  642.52902786 642.45413361 642.37939652
+ 642.30481595 642.23039125 642.15612181 642.08200698 642.00804615
+ 641.93423869 641.86058399 641.78708143 641.7137304  641.64053031
+ 641.56748053 641.49458048 641.42182956 641.34922718 641.27677274
+ 641.20446567 641.13230538 641.06029129 640.98842284 640.91669944
+ 640.84512052 640.77368553 640.70239391 640.63124509 640.56023851
+ 640.48937363 640.4186499  640.34806678 640.27762371 640.20732016
+ 640.13715559 640.06712948 639.99724129 639.92749048 639.85787655
+ 639.78839897 639.71905721 639.64985077 639.58077913 639.51184178
+ 639.44303821 639.37436793 639.30583042 639.2374252  639.16915176
+ 639.10100962 639.03299827 638.96511725 638.89736605 638.8297442
+ 638.76225123 638.69488664 638.62764998 638.56054076 638.49355852
+ 638.42670279 638.35997311 638.29336901 638.22689004 638.16053575
+ 638.09430567 638.02819936 637.96221637 637.89635625 637.83061855
+ 637.76500284 637.69950868 637.63413562 637.56888324 637.5037511
+ 637.43873877 637.37384582 637.30907183 637.24441638 637.17987904
+ 637.11545939 637.05115703 636.98697152 636.92290247 636.85894946
+ 636.79511208 636.73138993 636.6677826  636.6042897  636.54091081
+ 636.47764555 636.41449352 636.35145433 636.28852758 636.22571289
+ 636.16300986 636.10041812 636.03793727 635.97556695 635.91330676
+ 635.85115633 635.78911529 635.72718325 635.66535986 635.60364474
+ 635.54203751 635.48053783 635.41914531 635.3578596  635.29668034
+ 635.23560716 635.17463972 635.11377766 635.05302061 634.99236824
+ 634.93182018 634.8713761  634.81103565 634.75079847 634.69066423
+ 634.63063259 634.5707032  634.51087573 634.45114985 634.3915252
+ 634.33200148 634.27257833 634.21325543 634.15403246 634.09490909
+ 634.03588498 633.97695983 633.9181333  633.85940507 633.80077483
+ 633.74224226 633.68380705 633.62546887 633.56722741 633.50908238
+ 633.45103344 633.3930803  633.33522265 633.27746019 633.2197926
+ 633.16221959 633.10474086 633.0473561  632.99006503 632.93286733
+ 632.87576272 632.81875089 632.76183157 632.70500446 632.64826926
+ 632.59162569 632.53507346 632.47861228 632.42224188 632.36596196
+ 632.30977225 632.25367247 632.19766232 632.14174155 632.08590986
+ 632.03016699 631.97451266 631.9189466  631.86346853 631.80807819
+ 631.7527753  631.6975596  631.64243082 631.58738869 631.53243296
+ 631.47756335 631.4227796  631.36808146 631.31346867 631.25894096
+ 631.20449807 631.15013976 631.09586577 631.04167584 630.98756972
+ 630.93354715 630.8796079  630.8257517  630.77197832 630.7182875
+ 630.66467899 630.61115255 630.55770795 630.50434492 630.45106324
+ 630.39786267 630.34474295 630.29170386 630.23874516 630.1858666
+ 630.13306796 630.080349   630.02770948 629.97514918 629.92266786
+ 629.87026529 629.81794124 629.76569549 629.7135278  629.66143796
+ 629.60942572 629.55749088 629.5056332  629.45385247 629.40214846
+ 629.35052095 629.29896972 629.24749455 629.19609523 629.14477153
+ 629.09352324 629.04235016 628.99125205 628.94022871 628.88927993
+ 628.83840549 628.78760519 628.7368788  628.68622614 628.63564698
+ 628.58514112 628.53470836]","[  1.   2.   3.   4.   5.   6.   7.   8.   9.  10.  11.  12.  13.  14.
+  15.  16.  17.  18.  19.  20.  21.  22.  23.  24.  25.  26.  27.  28.
+  29.  30.  31.  32.  33.  34.  35.  36.  37.  38.  39.  40.  41.  42.
+  43.  44.  45.  46.  47.  48.  49.  50.  51.  52.  53.  54.  55.  56.
+  57.  58.  59.  60.  61.  62.  63.  64.  65.  66.  67.  68.  69.  70.
+  71.  72.  73.  74.  75.  76.  77.  78.  79.  80.  81.  82.  83.  84.
+  85.  86.  87.  88.  89.  90.  91.  92.  93.  94.  95.  96.  97.  98.
+  99. 100. 101. 102. 103. 104. 105. 106. 107. 108. 109. 110. 111. 112.
+ 113. 114. 115. 116. 117. 118. 119. 120. 121. 122. 123. 124. 125. 126.
+ 127. 128. 129. 130. 131. 132. 133. 134. 135. 136. 137. 138. 139. 140.
+ 141. 142. 143. 144. 145. 146. 147. 148. 149. 150. 151. 152. 153. 154.
+ 155. 156. 157. 158. 159. 160. 161. 162. 163. 164. 165. 166. 167. 168.
+ 169. 170. 171. 172. 173. 174. 175. 176. 177. 178. 179. 180. 181. 182.
+ 183. 184. 185. 186. 187. 188. 189. 190. 191. 192. 193. 194. 195. 196.
+ 197. 198. 199. 200. 201. 202. 203. 204. 205. 206. 207. 208. 209. 210.
+ 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223. 224.
+ 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237. 238.
+ 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251. 252.
+ 253. 254. 255. 256. 257. 258. 259. 260. 261. 262. 263. 264. 265. 266.
+ 267. 268. 269. 270. 271. 272. 273. 274. 275. 276. 277. 278. 279. 280.
+ 281. 282. 283. 284. 285. 286. 287. 288. 289. 290. 291. 292. 293. 294.
+ 295. 296. 297. 298. 299. 300. 301. 302. 303. 304. 305. 306. 307. 308.
+ 309. 310. 311. 312. 313. 314. 315. 316. 317. 318. 319. 320. 321. 322.
+ 323. 324. 325. 326. 327. 328. 329. 330. 331. 332. 333. 334. 335. 336.
+ 337. 338. 339. 340. 341. 342. 343. 344. 345. 346. 347. 348. 349. 350.
+ 351. 352. 353. 354. 355. 356. 357. 358. 359. 360. 361. 362. 363. 364.
+ 365. 366. 367. 368. 369. 370. 371. 372. 373. 374. 375. 376. 377. 378.
+ 379. 380. 381. 382. 383. 384. 385. 386. 387. 388. 389. 390. 391. 392.
+ 393. 394. 395. 396. 397. 398. 399. 400. 401. 402. 403. 404. 405. 406.
+ 407. 408. 409. 410. 411. 412. 413. 414. 415. 416. 417. 418. 419. 420.
+ 421. 422. 423. 424. 425. 426. 427. 428. 429. 430. 431. 432. 433. 434.
+ 435. 436. 437. 438. 439. 440. 441. 442. 443. 444. 445. 446. 447. 448.
+ 449. 450. 451. 452. 453. 454. 455. 456. 457. 458. 459. 460. 461. 462.
+ 463. 464. 465. 466. 467. 468. 469. 470. 471. 472. 473. 474. 475. 476.
+ 477. 478. 479. 480. 481. 482. 483. 484. 485. 486. 487. 488. 489. 490.
+ 491. 492. 493. 494. 495. 496. 497. 498. 499. 500. 501. 502. 503. 504.
+ 505. 506. 507. 508. 509. 510. 511. 512. 513. 514. 515. 516. 517. 518.
+ 519. 520. 521. 522. 523. 524. 525. 526. 527. 528. 529. 530. 531. 532.
+ 533. 534. 535. 536. 537. 538. 539. 540. 541. 542. 543. 544. 545. 546.
+ 547. 548. 549. 550. 551. 552. 553. 554. 555. 556. 557. 558. 559. 560.
+ 561. 562. 563. 564. 565. 566. 567. 568. 569. 570. 571. 572. 573. 574.
+ 575. 576. 577. 578. 579. 580. 581. 582. 583. 584. 585. 586. 587. 588.
+ 589. 590. 591. 592. 593. 594. 595. 596. 597. 598. 599. 600. 601. 602.
+ 603. 604. 605. 606. 607. 608. 609. 610. 611. 612. 613. 614. 615. 616.
+ 617. 618. 619. 620. 621. 622. 623. 624. 625. 626. 627. 628. 629. 630.
+ 631. 632.]"

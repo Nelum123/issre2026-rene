@@ -1,0 +1,43 @@
+subject,program_type,model,AIC,BIC,LogLik
+Jsoncpp,real_world,Exp.,16257.85,16262.86,-8127.92
+Jsoncpp,real_world,Gamma,15287.61,15297.63,-7641.81
+Jsoncpp,real_world,Gamma-Poisson,15284.22,15294.24,-7640.11
+Jsoncpp,real_world,Negative Binomial,15284.22,15294.24,-7640.11
+Jsoncpp,real_world,Poisson,99825.9,99830.91,-49911.95
+Jsoncpp,real_world,Zipf-Mandelbrot,14335.01,14345.03,-7165.51
+Libtiff,real_world,Exp.,8245540.8,8245547.53,-4122769.4
+Libtiff,real_world,Gamma,8245542.8,8245556.27,-4122769.4
+Libtiff,real_world,Gamma-Poisson,83103.41,83116.88,-41549.71
+Libtiff,real_world,Negative Binomial,83103.41,83116.88,-41549.71
+Libtiff,real_world,Poisson,1628390.48,1628397.22,-814194.24
+Libtiff,real_world,Zipf-Mandelbrot,81910.68,81924.15,-40953.34
+libxml2,real_world,Exp.,17314705.07,17314712.55,-8657351.54
+libxml2,real_world,Gamma,17314707.07,17314722.03,-8657351.54
+libxml2,real_world,Gamma-Poisson,176680.04,176694.99,-88338.02
+libxml2,real_world,Negative Binomial,176680.04,176694.99,-88338.02
+libxml2,real_world,Poisson,4749958.7,4749966.18,-2374978.35
+libxml2,real_world,Zipf-Mandelbrot,182134.59,182149.55,-91065.3
+Libpcap,real_world,Exp.,24893.64,24899.09,-12445.82
+Libpcap,real_world,Gamma,24017.89,24028.79,-12006.94
+Libpcap,real_world,Gamma-Poisson,24005.97,24016.87,-12000.98
+Libpcap,real_world,Negative Binomial,24005.97,24016.87,-12000.98
+Libpcap,real_world,Poisson,195505.85,195511.3,-97751.93
+Libpcap,real_world,Zipf-Mandelbrot,22220.98,22231.88,-11108.49
+Jasper,real_world,Exp.,66573.25,66579.69,-33285.63
+Jasper,real_world,Gamma,66268.16,66281.04,-33132.08
+Jasper,real_world,Gamma-Poisson,66256.55,66269.44,-33126.28
+Jasper,real_world,Negative Binomial,66256.55,66269.44,-33126.28
+Jasper,real_world,Poisson,724592.43,724598.87,-362295.21
+Jasper,real_world,Zipf-Mandelbrot,60851.82,60864.71,-30423.91
+Freetype2,real_world,Exp.,102790.13,102797.01,-51394.07
+Freetype2,real_world,Gamma,102504.91,102518.67,-51250.45
+Freetype2,real_world,Gamma-Poisson,102489.51,102503.27,-51242.75
+Freetype2,real_world,Negative Binomial,102489.51,102503.27,-51242.75
+Freetype2,real_world,Poisson,1191857.24,1191864.13,-595927.62
+Freetype2,real_world,Zipf-Mandelbrot,94706.69,94720.46,-47351.35
+zlib,real_world,Exp.,9460.78,9465.23,-4729.39
+zlib,real_world,Gamma,6825.5,6834.4,-3410.75
+zlib,real_world,Gamma-Poisson,6788.11,6797.0,-3392.05
+zlib,real_world,Negative Binomial,6788.11,6797.0,-3392.05
+zlib,real_world,Poisson,7541.37,7545.82,-3769.68
+zlib,real_world,Zipf-Mandelbrot,6458.67,6467.56,-3227.33

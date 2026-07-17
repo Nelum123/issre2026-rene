@@ -1,0 +1,26 @@
+subject,estimator,estimator_input,estimator_label,estimate_total,known_total,signed_error,abs_error,rel_error
+parsera,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),9995000000000000.0,104952,9994999999895048.0,9994999999895048.0,95234011737.6996
+parsera,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),10010.656001246783,104952,-94941.34399875322,94941.34399875322,0.9046168152941652
+parsera,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),10010.962079968202,104952,-94941.0379200318,94941.0379200318,0.9046138989255259
+parsera,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),10010.965168451768,104952,-94941.03483154823,94941.03483154823,0.9046138694979441
+parsera,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),9995.0,104952,-94957.0,94957.0,0.9047659882613004
+parserb,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),1.9502e+16,194852,1.9501999999805148e+16,1.9501999999805148e+16,100086219283.37994
+parserb,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),1.9502e+16,194852,1.9501999999805148e+16,1.9501999999805148e+16,100086219283.37994
+parserb,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),19568.49728500431,194852,-175283.5027149957,175283.5027149957,0.899572509981913
+parserb,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),19568.49728500431,194852,-175283.5027149957,175283.5027149957,0.899572509981913
+parserb,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),19502.0,194852,-175350.0,175350.0,0.8999137807156201
+parserd,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),8897000000000000.0,136455,8896999999863545.0,8896999999863545.0,65200982007.720825
+parserd,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),8904.31428511118,136455,-127550.68571488882,127550.68571488882,0.9347454158139227
+parserd,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),8904.811153786442,136455,-127550.18884621355,127550.18884621355,0.9347417745499509
+parserd,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),8904.811422345068,136455,-127550.18857765493,127550.18857765493,0.9347417725818397
+parserd,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),8897.0,136455,-127558.0,127558.0,0.9347990179912792
+parsere,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),1.2236e+16,231510,1.223599999976849e+16,1.223599999976849e+16,52853008508.35165
+parsere,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),1.2236e+16,231510,1.223599999976849e+16,1.223599999976849e+16,52853008508.35165
+parsere,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),12307.699113403543,231510,-219202.30088659647,219202.30088659647,0.9468372894760333
+parsere,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),12307.699113403543,231510,-219202.30088659647,219202.30088659647,0.9468372894760333
+parsere,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),12236.0,231510,-219274.0,219274.0,0.9471469914906484
+parserf,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),1.4186e+16,331301,1.41859999996687e+16,1.41859999996687e+16,42819067855.72244
+parserf,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),1.4186e+16,331301,1.41859999996687e+16,1.41859999996687e+16,42819067855.72244
+parserf,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),14330.60247851617,331301,-316970.3975214838,316970.3975214838,0.9567444635587693
+parserf,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),14330.60247851617,331301,-316970.3975214838,316970.3975214838,0.9567444635587693
+parserf,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),14186.0,331301,-317115.0,317115.0,0.9571809321432776

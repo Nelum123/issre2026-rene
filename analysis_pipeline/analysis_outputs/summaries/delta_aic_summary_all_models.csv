@@ -1,0 +1,11 @@
+source,model,subjects_won,mean_delta_aic,median_delta_aic,min_delta_aic,max_delta_aic
+hit_count,Gamma (hit-count),5,0.0,0.0,0.0,0.0
+hit_count,Negative Binomial (hit-count),0,121.6962473641266,27.618875154061243,20.755222556646913,450.519731867651
+hit_count,Exponential (hit-count),0,94596.52282980306,102550.97204463475,49130.222596493724,127383.40600286983
+hit_count,Poisson (hit-count),0,830931472848.301,849008713743.6588,553520476716.3727,1148392575630.5894
+incidence_frequency,Negative Binomial (incidence-frequency),5,9.83709469437599e-10,9.604264050722122e-10,0.0,2.444721758365631e-09
+incidence_frequency,Gamma-Poisson (incidence-frequency),3,2.5017739972099663e-06,0.0,0.0,1.1896598152816296e-05
+incidence_frequency,Poisson (incidence-frequency),0,3604919.340850172,4490934.401650649,1350075.9620448977,5389217.366641113
+incidence_frequency,Gamma (incidence-frequency),0,12062871.386142513,16069219.16877391,1.5346147633390501,25609953.521965016
+incidence_frequency,Exponential (incidence-frequency),0,17021481.194310572,16069217.16877391,11677307.580902105,25609951.521965016
+zipf_coverage_frequency,Zipf-Mandelbrot (coverage-frequency),5,0.0,0.0,0.0,0.0

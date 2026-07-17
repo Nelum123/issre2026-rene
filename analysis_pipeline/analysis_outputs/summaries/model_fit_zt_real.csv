@@ -1,0 +1,1 @@
+subject,model,fit_family,n_obs,S_obs,lambda,p0,p_seen,estimate,unseen,loglik,aic,bic,rmse,rate,scale,mean,shape,size,prob,fit_input,base_model,best_by_rmse,best_by_aic,best_by_bic,best_by_loglik,n_obs_discrete,gof_stat,gof_p,gof_name,mu,J,C,s,q,pred,ranks

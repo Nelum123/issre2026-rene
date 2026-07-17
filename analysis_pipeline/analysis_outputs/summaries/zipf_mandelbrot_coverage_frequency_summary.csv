@@ -1,0 +1,13 @@
+subject,model,fit_family,n_obs,J,s,q,loglik,aic,bic,rmse
+parsera,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,9995,4160935.0,0.3074734066834577,100.0,-66559.03980503471,133122.07961006943,133136.49929056328,188.72578039303173
+parserb,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,19502,4967799.0,0.4374604819534937,100.0,-127941.21978724928,255886.4395744985,255902.19611910533,170.96806726129762
+parserd,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,8897,3272918.0,0.3401640752716308,100.0,-56632.00208361389,113268.0041672278,113282.19110606828,140.66108891772677
+parsere,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,12236,3384097.0,0.4544406200499885,100.0,-83094.2000755393,166192.4001510786,166207.22442648912,215.29788296479964
+parserf,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,14186,3719571.0,0.4610004942252833,100.0,-96582.70673370344,193169.41346740688,193184.5334890904,219.06597766552505
+freetype2,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,7204,3326983.0,0.2702857866968273,100.0,-47351.3463154576,94706.6926309152,94720.4574143278,173.12012528687546
+jasper,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,4643,2220301.0,0.2740536064312817,100.0,-30423.90941112076,60851.81882224151,60864.70505421755,169.64395766164944
+jsoncpp,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,1108,625852.0,0.2580579599050355,100.0,-7165.505015093703,14335.010030187406,14345.03065392202,155.7300025350955
+libpcap,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,1723,869919.0,0.3163685448301193,100.0,-11108.49035210526,22220.98070421052,22231.884348683576,152.66424143372095
+libtiff,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,6217,1866195.0,0.4794025191146244,100.0,-40953.34212855368,81910.68425710736,81924.1543426159,175.6296004745863
+libxml2,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,13055,5036901.0,0.3339934832995054,100.0,-91065.2974179146,182134.5948358292,182149.5486887915,258.93383541960657
+zlib,Zipf-Mandelbrot (coverage-frequency),Zipf-Mandelbrot on rank-frequency data derived from incidence sums,632,413688.0,0.0586921945791577,100.0,-3227.332742480106,6458.665484960212,6467.563263748506,39.94887918159431

@@ -1,0 +1,11 @@
+subject,estimator,estimator_input,estimator_label,estimate_total,known_total,signed_error,abs_error,rel_error
+parsera,ztNB,incidence_frequency,ztNB (incidence-frequency estimator),10010.965168451768,104952,-94941.03483154823,94941.03483154823,0.9046138694979441
+parsera,ztPoisson,incidence_frequency,ztPoisson (incidence-frequency estimator),9995.0,104952,-94957.0,94957.0,0.9047659882613004
+parserb,ztNB,incidence_frequency,ztNB (incidence-frequency estimator),19568.49728500431,194852,-175283.5027149957,175283.5027149957,0.899572509981913
+parserb,ztPoisson,incidence_frequency,ztPoisson (incidence-frequency estimator),19502.0,194852,-175350.0,175350.0,0.8999137807156201
+parserd,ztNB,incidence_frequency,ztNB (incidence-frequency estimator),8904.811422345068,136455,-127550.18857765493,127550.18857765493,0.9347417725818397
+parserd,ztPoisson,incidence_frequency,ztPoisson (incidence-frequency estimator),8897.0,136455,-127558.0,127558.0,0.9347990179912792
+parsere,ztNB,incidence_frequency,ztNB (incidence-frequency estimator),12307.699113403543,231510,-219202.30088659647,219202.30088659647,0.9468372894760333
+parsere,ztPoisson,incidence_frequency,ztPoisson (incidence-frequency estimator),12236.0,231510,-219274.0,219274.0,0.9471469914906484
+parserf,ztNB,incidence_frequency,ztNB (incidence-frequency estimator),14330.60247851617,331301,-316970.3975214838,316970.3975214838,0.9567444635587693
+parserf,ztPoisson,incidence_frequency,ztPoisson (incidence-frequency estimator),14186.0,331301,-317115.0,317115.0,0.9571809321432776

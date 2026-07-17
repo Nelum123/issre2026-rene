@@ -1,0 +1,46 @@
+subject,estimator,estimator_input,estimator_label,estimate_total,known_total,signed_error,abs_error,rel_error
+parsera,Exponential,hit_count,Exponential (hit-count estimator),9995.000611756026,104952,-94956.99938824397,94956.99938824397,0.9047659824323879
+parsera,Gamma,hit_count,Gamma (hit-count estimator),10822.392170479987,104952,-94129.60782952001,94129.60782952001,0.8968824589290344
+parsera,Negative Binomial,hit_count,Negative Binomial (hit-count estimator),10792.494763623548,104952,-94159.50523637646,94159.50523637646,0.8971673263623033
+parsera,Poisson,hit_count,Poisson (hit-count estimator),9995.0,104952,-94957.0,94957.0,0.9047659882613004
+parsera,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),9995000000000000.0,104952,9994999999895048.0,9994999999895048.0,95234011737.6996
+parsera,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),10010.656001246783,104952,-94941.34399875322,94941.34399875322,0.9046168152941652
+parsera,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),10010.962079968202,104952,-94941.0379200318,94941.0379200318,0.9046138989255259
+parsera,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),10010.965168451768,104952,-94941.03483154823,94941.03483154823,0.9046138694979441
+parsera,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),9995.0,104952,-94957.0,94957.0,0.9047659882613004
+parserb,Exponential,hit_count,Exponential (hit-count estimator),19502.002011549528,194852,-175349.99798845046,175349.99798845046,0.8999137703921462
+parserb,Gamma,hit_count,Gamma (hit-count estimator),21162.67486854141,194852,-173689.32513145858,173689.32513145858,0.891391030789823
+parserb,Negative Binomial,hit_count,Negative Binomial (hit-count estimator),21132.106629416507,194852,-173719.89337058348,173719.89337058348,0.8915479100578053
+parserb,Poisson,hit_count,Poisson (hit-count estimator),19502.0,194852,-175350.0,175350.0,0.8999137807156201
+parserb,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),1.9502e+16,194852,1.9501999999805148e+16,1.9501999999805148e+16,100086219283.37994
+parserb,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),1.9502e+16,194852,1.9501999999805148e+16,1.9501999999805148e+16,100086219283.37994
+parserb,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),19568.49728500431,194852,-175283.5027149957,175283.5027149957,0.899572509981913
+parserb,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),19568.49728500431,194852,-175283.5027149957,175283.5027149957,0.899572509981913
+parserb,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),19502.0,194852,-175350.0,175350.0,0.8999137807156201
+parserd,Exponential,hit_count,Exponential (hit-count estimator),8897.000432844052,136455,-127557.99956715594,127557.99956715594,0.9347990148192147
+parserd,Gamma,hit_count,Gamma (hit-count estimator),9399.670896959602,136455,-127055.32910304039,127055.32910304039,0.9311152328829313
+parserd,Negative Binomial,hit_count,Negative Binomial (hit-count estimator),9326.788157365592,136455,-127128.21184263441,127128.21184263441,0.9316493484491913
+parserd,Poisson,hit_count,Poisson (hit-count estimator),8897.0,136455,-127558.0,127558.0,0.9347990179912792
+parserd,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),8897000000000000.0,136455,8896999999863545.0,8896999999863545.0,65200982007.720825
+parserd,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),8904.31428511118,136455,-127550.68571488882,127550.68571488882,0.9347454158139227
+parserd,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),8904.811153786442,136455,-127550.18884621355,127550.18884621355,0.9347417745499509
+parserd,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),8904.811422345068,136455,-127550.18857765493,127550.18857765493,0.9347417725818397
+parserd,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),8897.0,136455,-127558.0,127558.0,0.9347990179912792
+parsere,Exponential,hit_count,Exponential (hit-count estimator),12236.000504124448,231510,-219273.99949587556,219273.99949587556,0.947146989313099
+parsere,Gamma,hit_count,Gamma (hit-count estimator),13600.112007336884,231510,-217909.8879926631,217909.8879926631,0.9412547535426682
+parsere,Negative Binomial,hit_count,Negative Binomial (hit-count estimator),13570.692406616476,231510,-217939.30759338354,217939.30759338354,0.9413818305618916
+parsere,Poisson,hit_count,Poisson (hit-count estimator),12236.0,231510,-219274.0,219274.0,0.9471469914906484
+parsere,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),1.2236e+16,231510,1.223599999976849e+16,1.223599999976849e+16,52853008508.35165
+parsere,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),1.2236e+16,231510,1.223599999976849e+16,1.223599999976849e+16,52853008508.35165
+parsere,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),12307.699113403543,231510,-219202.30088659647,219202.30088659647,0.9468372894760333
+parsere,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),12307.699113403543,231510,-219202.30088659647,219202.30088659647,0.9468372894760333
+parsere,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),12236.0,231510,-219274.0,219274.0,0.9471469914906484
+parserf,Exponential,hit_count,Exponential (hit-count estimator),14186.001041061078,331301,-317114.99895893893,317114.99895893893,0.9571809290009355
+parserf,Gamma,hit_count,Gamma (hit-count estimator),16071.265282141363,331301,-315229.73471785866,315229.73471785866,0.9514904413746371
+parserf,Negative Binomial,hit_count,Negative Binomial (hit-count estimator),16897.74770312967,331301,-314403.25229687034,314403.25229687034,0.948995784186798
+parserf,Poisson,hit_count,Poisson (hit-count estimator),14186.0,331301,-317115.0,317115.0,0.9571809321432776
+parserf,Exponential,incidence_frequency,Exponential (incidence-frequency estimator),1.4186e+16,331301,1.41859999996687e+16,1.41859999996687e+16,42819067855.72244
+parserf,Gamma,incidence_frequency,Gamma (incidence-frequency estimator),1.4186e+16,331301,1.41859999996687e+16,1.41859999996687e+16,42819067855.72244
+parserf,Gamma-Poisson,incidence_frequency,Gamma-Poisson (incidence-frequency estimator),14330.60247851617,331301,-316970.3975214838,316970.3975214838,0.9567444635587693
+parserf,Negative Binomial,incidence_frequency,Negative Binomial (incidence-frequency estimator),14330.60247851617,331301,-316970.3975214838,316970.3975214838,0.9567444635587693
+parserf,Poisson,incidence_frequency,Poisson (incidence-frequency estimator),14186.0,331301,-317115.0,317115.0,0.9571809321432776
